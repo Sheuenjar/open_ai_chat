@@ -85,7 +85,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   // fetch data from server -> bot's response
-  const response = await fetch('https://open-ai-chat-tjt5.onrender.com', {
+  const response = await fetch('https://open-ai-chat-tjt5.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
